@@ -34,7 +34,7 @@ class _ServiceAddressComponentState extends State<ServiceAddressComponent> {
 
       if (widget.selectedList != null) {
         for (var element in addressList) {
-          log("${element.id}" element.address.validate());
+          log("${element.id} ${element.address.validate()}");
 
           element.isSelected = widget.selectedList!.contains(element.id.validate());
         }

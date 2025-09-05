@@ -5,12 +5,13 @@ import 'package:trade/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class HandymanDashboardShimmer extends StatelessWidget {
-  final List totalList = ["", "", "", ""];
+
 
   const HandymanDashboardShimmer({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final List<String> totalList = ["", "", "", ""];
     return SingleChildScrollView(
       padding: EdgeInsets.only(bottom: 16, top: 16),
       child: Column(

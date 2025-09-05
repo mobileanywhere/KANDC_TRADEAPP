@@ -255,6 +255,7 @@ class _SignInScreenState extends State<SignInScreen> {
           appStore.setLoading(false);
         })
         .catchError((e) {
+          log(e);
           appStore.setLoading(false);
           toast(e.toString());
         });

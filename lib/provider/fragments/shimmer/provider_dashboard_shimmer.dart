@@ -4,12 +4,13 @@ import 'package:trade/main.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class ProviderDashboardShimmer extends StatelessWidget {
-  final List totalList = ["", "", "", ""];
+
 
   const ProviderDashboardShimmer({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final List totalList = ["", "", "", ""];
     return SingleChildScrollView(
       padding: EdgeInsets.only(bottom: 16),
       physics: AlwaysScrollableScrollPhysics(),
